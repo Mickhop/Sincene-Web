@@ -19,7 +19,7 @@ document.getElementById('yesBtn').addEventListener('click', function() {
     
     // Shake the No button and show a message
     this.classList.add('shake');
-    dontClickText.textContent = "I don't let you click it";
+    dontClickText.textContent = "ไม่ให้กดหรอกกก😜😜";
     dontClickText.classList.add('changed');
     
     // Reset the shake effect after animation ends
