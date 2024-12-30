@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-container">
+    <h1>Happy New Year Krubbbb 🎉</h1>
+    <center><img src="images/HNY.gif" alt="Happy New Year" class="main-photo"></center>
+    <center><p>ไอเป่งงงงงงง</p></center>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      document.body.style.transition = "opacity 1s ease-out";
+      document.body.style.opacity = 0;
+      setTimeout(() => {
+        window.location.href = "next.html";
+      }, 1000);
+    }, 5000);
+  </script>
+</body>
+</html>
